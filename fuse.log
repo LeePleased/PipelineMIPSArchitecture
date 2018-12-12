@@ -1,0 +1,37 @@
+Running: /home/hadoop/Xilinx_ISE/installation/14.7/ISE_DS/ISE/bin/lin64/unwrapped/fuse -intstyle ise -incremental -lib unisims_ver -lib unimacro_ver -lib xilinxcorelib_ver -lib secureip -o /home/hadoop/Desktop/NaivePipelineMIPS/Main_isim_beh.exe -prj /home/hadoop/Desktop/NaivePipelineMIPS/Main_beh.prj work.Main work.glbl 
+ISim P.20131013 (signature 0xfbc00daa)
+Number of CPUs detected in this system: 4
+Turning on mult-threading, number of parallel sub-compilation jobs: 8 
+Determining compilation order of HDL files
+Analyzing Verilog file "/home/hadoop/Desktop/NaivePipelineMIPS/top.v" into library work
+Analyzing Verilog file "/home/hadoop/Xilinx_ISE/installation/14.7/ISE_DS/ISE//verilog/src/glbl.v" into library work
+Starting static elaboration
+Completed static elaboration
+Fuse Memory Usage: 95124 KB
+Fuse CPU Usage: 2160 ms
+Compiling module PC_Reg(PC_SIZE=11)
+Compiling module IM(PC_SIZE=11,INSTR_SIZE=32)
+Compiling module IA(INSTR_SIZE=32,CODE_SIZE=6,REG...
+Compiling module ID_Reg(CODE_SIZE=6,REG_SIZE=5,IM...
+Compiling module RF_R_MUX(REG_SIZE=5,CODE_SIZE=6)
+Compiling module RF(REG_SIZE=5,CODE_SIZE=6,DATA_S...
+Compiling module SE(IMME_SIZE=11,DATA_SIZE=32)
+Compiling module RF_Reg(CODE_SIZE=6,REG_SIZE=5,DA...
+Compiling module ALU_A_MUX(DATA_SIZE=32,CODE_SIZE...
+Compiling module ALU_B_MUX(DATA_SIZE=32,CODE_SIZE...
+Compiling module ALU(DATA_SIZE=32,FUNC_SIZE=11)
+Compiling module ALU_Reg(CODE_SIZE=6,REG_SIZE=5,D...
+Compiling module DM(ADDR_SIZE=32,DATA_SIZE=32,COD...
+Compiling module MEM_Reg(CODE_SIZE=6,REG_SIZE=5,D...
+Compiling module RF_W_MUX(DATA_SIZE=32,CODE_SIZE=...
+Compiling module CU(CODE_SIZE=6,REG_SIZE=5)
+Compiling module TOP
+Compiling module Main
+Compiling module glbl
+Time Resolution for simulation is 1ps.
+Waiting for 11 sub-compilation(s) to finish...
+Compiled 19 Verilog Units
+Built simulation executable /home/hadoop/Desktop/NaivePipelineMIPS/Main_isim_beh.exe
+Fuse Memory Usage: 655528 KB
+Fuse CPU Usage: 2250 ms
+GCC CPU Usage: 2260 ms
